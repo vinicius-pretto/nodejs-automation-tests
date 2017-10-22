@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-automation-tests",
+  "version": "1.0.0",
+  "description": "Nodejs do teste de unidade ao de integração",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius-pretto/nodejs-automation-tests.git"
+  },
+  "author": "Vinicius Pretto <vini.prettodasilva@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicius-pretto/nodejs-automation-tests/issues"
+  },
+  "homepage": "https://github.com/vinicius-pretto/nodejs-automation-tests#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
