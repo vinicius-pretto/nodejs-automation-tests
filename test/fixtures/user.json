@@ -1,0 +1,9 @@
+{
+    "user": {
+        "bornDate": "05/18/1989"
+    },
+    "expectedUser": {
+        "age": 28,
+        "bornDate": "05/18/1989"
+    }
+}
