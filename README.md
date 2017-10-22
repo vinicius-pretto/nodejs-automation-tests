@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* Node.js >= 7.6
+* [Node.js](https://nodejs.org) >= 7.6
 
 ## References
 
