@@ -2,13 +2,11 @@
     "users": [
         {
             "id": 1,
-            "name": "Vinicius",
-            "bornDate": "05/18/1989"
+            "name": "Vinicius"
         },
         {
             "id": 2,
-            "name": "João",
-            "bornDate": "08/20/1991"
+            "name": "João"
         }
     ]
 }

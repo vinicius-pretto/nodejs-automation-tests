@@ -2,5 +2,9 @@
     "expectedUser": {
         "id": 1,
         "name": "Vinicius"
+    },
+    "newUser": {
+        "id": 2,
+        "name": "João"
     }
 }
