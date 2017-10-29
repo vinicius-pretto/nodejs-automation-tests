@@ -27,6 +27,7 @@ describe('UserService', () => {
             
             sinon.assert.calledOnce(createSpy);
             sinon.assert.calledWith(createSpy, newUser);
+            createSpy.restore();
         });
     });
 });
