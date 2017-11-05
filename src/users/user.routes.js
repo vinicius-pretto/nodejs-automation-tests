@@ -8,4 +8,9 @@ module.exports = (app) => {
         return userService.create(req.body)
             .then(() => res.sendStatus(CREATED));
     });
+
+    app.get('/users', (req, res) => {
+        return userService.findAll()
+            .then(users => res.json({ users }));
+    });
 }
