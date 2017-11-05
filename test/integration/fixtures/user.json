@@ -1,0 +1,10 @@
+{
+    "defaultUser": {
+        "id": 1, 
+        "name": "João"
+    },
+    "newUser": {
+        "id": 2,
+        "name": "Vinicius"
+    }
+}

@@ -1,10 +1,10 @@
 const axios = require('axios');
-const OrderService = require('../src/orders/order.service');
+const OrderService = require('../../src/orders/order.service');
 const { orders } = require('./fixtures/orders.json');
 
 describe('OrderService', () => {
     describe(`findByUserId(1)`, () => {
-        it('should return all orders', async() => {
+        it('should return orders form userId=1', async() => {
             const userId = 1;
             const orderService = new OrderService();
             const ordersResponse = { data: { orders: orders } };

@@ -13,7 +13,7 @@ class UserService {
     
     async findAll() {
         try {
-           const users = await this.Database.getAllUsers();
+           const users = await this.Database.findAll();
            return users;
         } catch (error) {
             console.log('Error on find users from database', error);

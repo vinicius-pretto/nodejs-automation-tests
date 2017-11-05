@@ -1,11 +1,11 @@
-const UserService = require('../src/users/user.service');
+const UserService = require('../../src/users/user.service');
 const { newUser, expectedUser } = require('./fixtures/user.json');
 
 describe('UserService', () => {
     describe('findAll()', () => {
         it('should return all users', async() => {
             const Database = {
-                async getAllUsers() {
+                async findAll() {
                     return [expectedUser];
                 }
             }
